@@ -3,13 +3,50 @@
   padding: 0;
 }
 
+h1, h2, h3, span, p, a {
+  color: #000;
+}
+
 body {
-  max-width: 1440px;
+  max-width: 1920px;
   width: 100%;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  color: #000;
 }
 
 .container {
   margin: 0 auto;
-  max-width: 1146px;
+  max-width: 1440px;
   width: 100%;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 34px;
+  width: 100%;
+}
+
+.logo {
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+}
+
+.logo__title {
+  font-size: 24px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.logo__subtitle {
+  font-size: 12px;
+  font-weight: 300;
+}
+
+.header__login--link {
+  font-size: 14px;
+  text-decoration: none;  
 }
